@@ -37,7 +37,6 @@ class StudentManagementSystem:
         print(f"Average: {self.student.get('average', 'N/A')}")
 
 
-# Run the system
 system= StudentManagementSystem()
 system.get_student_information()
 system.calculate_average()
