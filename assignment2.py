@@ -6,6 +6,5 @@ class Palindrome:
         cleaned = self.name.replace(" ", "").lower()
         return cleaned == cleaned[::-1]
 
-# Example usage
 word = Palindrome("Racecar")
-print(word.check_palindrome())  # Output: True
+print(word.check_palindrome())
